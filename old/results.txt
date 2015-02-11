@@ -1,0 +1,16 @@
+
+> length(unique(reads$position))
+[1] 6692
+> length(unique(reads$gene))
+[1] 1305
+> summary(as.factor(key$distance))
+   0    1    2    3    4    5    6    7    8    9   10 
+   6   41  924 1300 1569  463  377  401  407  667  537
+
+ h   pos  gene
+[0]    6     5
+[1]   47    33
+[2]  971   488
+[3] 2271   832
+
+
